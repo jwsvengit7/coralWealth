@@ -1981,19 +1981,7 @@ ul {
 }
 
 /* line 21, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
-.review_part:after {
-  position: absolute;
-  content: "";
-  left: 67px;
-  top: -125px;
-  width: 200px;
-  height: 200px;
-  background-image: url(../img/client_cercel_overlay.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
+
 
 @media (max-width: 576px) {
   /* line 21, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
@@ -2002,18 +1990,6 @@ ul {
   }
 }
 
-/* line 46, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
-.review_part:before {
-  position: absolute;
-  content: "";
-  right: 0;
-  width: 180px;
-  height: 450px;
-  background-image: url(../img/review_overley.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 @media (max-width: 576px) {
   /* line 46, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
@@ -2307,17 +2283,10 @@ ul {
 
 /************** blog part css****************/
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_blog_part.scss */
-.blog_part {
-  padding: 130px 0px 125px;
-  position: relative;
-  z-index: 1;
-}
+
 
 @media (max-width: 576px) {
-  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_blog_part.scss */
-  .blog_part {
-    padding: 70px 0px;
-  }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -5577,3 +5546,94 @@ h6 {
 /* line 118, E:/161 Real estate/161_Real_state_html/sass/_contact.scss */
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* ************* About Us ************** */
+
+.section-1{
+  width:100%;
+  height:400px;
+  background:red;
+  margin-top: 200px;
+}
+
+.about-us{
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+.content-about-us{
+  width: 80%;
+  height:auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+.img-content{
+  background-image: url(../img/team_member.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  height:500px;
+  border-radius: 10px;
+}
+.about{
+  width:60%;
+  height: auto;
+
+}
+
+.about li{
+  color:orange;
+  font-size: 20px;
+  margin-bottom:10px;
+
+}
+.about p{
+  margin-top:20px
+}
+.about-h1{
+  font-size: 40px;
+}
+.about h3{
+  margin-top:20px;
+}
+.row-about{
+width:100%;
+display:flex;
+justify-content:center;
+}
+
+.icon-row{
+  width:100%;
+  height:500px;
+  background-color: #edb1f1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-icon{
+  width: 90%;
+  height: 400px;
+  display:flex;
+  justify-content: center;
+}
+
+.icon{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-box{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #f8f8f8;
+}
+.icon p{
+  text-align: center;
+}
