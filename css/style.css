@@ -5622,6 +5622,7 @@ justify-content:center;
 .icon{
   width: 300px;
   height: 300px;
+  padding:10px;
   background-color: white;
   display:flex;
   align-items: center;
@@ -5629,10 +5630,14 @@ justify-content:center;
 }
 
 .icon-box{
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  background-color: #f8f8f8;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  padding-top: 16px;
+  margin-bottom: 30px;
 }
 .icon p{
   text-align: center;
