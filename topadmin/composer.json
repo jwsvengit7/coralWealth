@@ -1,0 +1,17 @@
+{
+    "name": "jwsven/topadmin",
+    "autoload": {
+        "psr-4": {
+            "Jwsven\\Topadmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jwsven",
+            "email": "chiorlujack@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
